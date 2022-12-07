@@ -13,8 +13,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 })
 
-function runGame() {
+/**
+ * Generates two random numbers between 1 and 25 to be used in the calculation the user is asked to make
+ */
 
+function runGame() {
+    let num1 = Math.ceil(Math.random() * 25);
+    let num2 = Math.ceil(Math.random() * 25);
 }
 
 function checkAnswer() {
